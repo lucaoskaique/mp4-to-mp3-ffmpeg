@@ -30,9 +30,7 @@ On Ubuntu, you can install FFmpeg from the official repositories by running the 
 sudo apt update
 sudo apt install ffmpeg
 ```
-
-## Installing the Video to Audio Converter
-
+Installing the Video to Audio Converter
 To install the Video to Audio Converter, follow these steps:
 
 ```bash
@@ -41,28 +39,23 @@ cd <your-repository-directory>
 npm install
 ```
 
-Replace `<your-repository-url>` and `<your-repository-directory>` with the actual URL and directory name of your repository.
+Replace <your-repository-url> and <your-repository-directory> with the actual URL and directory name of your repository.
 
-## Using the Video to Audio Converter
-
+Using the Video to Audio Converter
 To use the Video to Audio Converter, follow these steps:
 
-1. Place your video files in the 'videos' directory.
-2. Run the following command:
+Place your video files in the 'videos' directory.
+Run the following command:
 
 ```bash
-node index.js
+node src/server.js
 ```
-
 Your converted audio files will be placed in the 'audios' directory.
 
-## Contact
+Contact
+If you want to contact me, you can reach me at <your-email>@example.com. Replace <your-email>@example.com with your actual email address.
 
-If you want to contact me, you can reach me at `<your-email>@example.com`.
+License
+This project uses the following license: <license>. Replace <license> with the actual license your project is using.
 
-## License
-
-This project uses the following license: `<license>`.
-
-
-Replace `<your-repository-url>`, `<your-repository-directory>`, `<your-email>@example.com`, and `<license>` with the actual URL of your repository, directory name, your email, and license information.
+This version provides a much clearer instruction to the reader about replacing placeholders in the document.
