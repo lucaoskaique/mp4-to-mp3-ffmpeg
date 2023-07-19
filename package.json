@@ -1,0 +1,9 @@
+{
+  "name": "mp4-to-mp3-ffmpeg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
